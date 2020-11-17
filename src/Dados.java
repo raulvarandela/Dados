@@ -1,4 +1,7 @@
-//Autor: Mr. Steve
+/**
+ @author: Raúl Varandela
+ Descripción: Clase que contiene toda la lógica de negocio
+ */
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -15,6 +18,7 @@ public class Dados {
                 dado1 = (int) (Math.random() * 6 + 1);
                 dado2 = (int) (Math.random() * 6 + 1);
 
+                System.out.println();
                 System.out.println("Tus numeros son: " + dado1 + " y " + dado2);
 
                 switch (dado1) {
